@@ -33,7 +33,7 @@ a {
 /* =========================================================
    HEADER & NAVIGATION
    ========================================================= */
-
+  
 .header {
   background: #f5f5f5;
   border-bottom: 1px solid #ddd;
@@ -53,7 +53,7 @@ a {
   color: #333;
 } */
 
-.nav {
+/* .nav {
   position: relative;
 }
 
@@ -83,7 +83,44 @@ a {
 
 .nav-menu li a.active {
   font-weight: bold;
+} */
+
+
+/* =========================================================
+   HAMBURUGER DEBUT
+   ========================================================= */
+
+.hamburger {
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #000;
 }
+
+nav {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    background-color: #0077cc;
+    border-radius: 5px;
+    flex-direction: column;
+}
+nav a {
+    color: #e9f2f9;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+/* =========================================================
+   HAMBURUGER FIN
+   ========================================================= */
+
 
 /* =========================================================
    HERO (ACCUEIL)

@@ -6,18 +6,18 @@
 
   <title>Consultant informatique à domicile – Dépannage & Formation</title>
   <meta name="description" content="Consultant informatique à domicile pour particuliers. Dépannage, installation, formation bureautique et assistance Internet. Assistance administrative. Services à la personne">
-
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
 
 <header class="header">
   <div class="container header-container">
-    <!-- <img src="logo.png" width=15% height=15% /> -->
+    <img src="logo.png" alt="Logo" class="header-photo" width=15% height=15% />
 
-    <nav class="nav">
+    <!-- <nav class="nav"> -->
       <!-- <button class="nav-toggle" aria-label="Menu">☰</button> -->
-      <ul class="nav-menu">
+    <!--  <ul class="nav-menu">
         <li><a href="installation.html">Installation</a></li>
         <li><a href="depannage.html">Dépannage</a></li>
         <li><a href="formation.html">Formation</a></li>
@@ -26,7 +26,24 @@
         <li><a href="web.html">Création Sites</a></li>
         <li><a href="a-propos.html">À propos</a></li>
       </ul>
-    </nav>
+    </nav>-->
+
+ <!-- HAMBURGER DEBUT -->
+<div class="header-right">
+<button class="hamburger" id="menuToggle">☰</button>
+            <nav id="menu">
+                <a href="index.html">Accueil</a>
+                <a href="installation.html">Installation</a>
+                <a href="depannage.html">Dépannage</a>
+                <a href="formation.html">Formation</a>
+                <a href="internet.html">Internet</a>
+                <a href="administratif.html">Administratif</a>
+                <a href="web.html">Création Sites</a>
+                <a href="a-propos.html">À propos</a>
+            </nav>
+</div> 
+ <!-- HAMBURGER FIN -->
+
   </div>
 </header>
 
@@ -150,9 +167,10 @@
       <li><a href="confidentialite.html">Confidentialité</a></li>
       <li><a href="mentions-legales.html">Mentions légales</a></li>
     </ul>
+  <div class="footer-right">
+      <button onclick="scrollToTop()">⬆ Haut de page</button>
+  </div>
   </div>
 </footer>
-
-<script src="js/menu.js"></script>
 </body>
 </html>
